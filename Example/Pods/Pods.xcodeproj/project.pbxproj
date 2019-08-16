@@ -1,0 +1,786 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0294D78F985D5DE86B8E6EEA7ADAAC44 /* Pods-WaterMarkImage_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 675F00C7FBA40BBDB20B7AF43E3E80C0 /* Pods-WaterMarkImage_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		155F89F8FBF9F490291D4017F280372A /* Pods-WaterMarkImage_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DC32DAFC1CAC6B3F145A5BF130B81EAA /* Pods-WaterMarkImage_Example-dummy.m */; };
+		2BE9A0378AD22C6015A28724E2629542 /* WaterMarkImage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 25789A840D90D5B774A7E8CD843DCAB0 /* WaterMarkImage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3AFF1183D8BA5708290C7D838DCDA756 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		7EC4A14224512ECDD44FDCFE5903364F /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = A310AFFF5CC42C463E66880AA9E92780 /* ReplaceMe.m */; };
+		826F888DAA2719B1F130693839B30903 /* WaterMarkImage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C0EA03639312E1EE1552F8AFEA44B3 /* WaterMarkImage-dummy.m */; };
+		98099F7E8D672C0E8E593D9127539477 /* LBZGetWaterMarkImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 7987D229A211D51D8F0FDF5344013662 /* LBZGetWaterMarkImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC267702CB1822A6CD0060FDEEF04A9D /* Pods-WaterMarkImage_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B86FD838768EB83B06DB4DA6E54D69 /* Pods-WaterMarkImage_Tests-dummy.m */; };
+		C0F2452C1C6B15C19E52094E95C0BF02 /* libLBZGetWaterMarkImage.a in Sources */ = {isa = PBXBuildFile; fileRef = ADC91B44F3A1D55CDE3539A3A4FA5EEE /* libLBZGetWaterMarkImage.a */; };
+		D2FD04A5DDF7ACE68CAEAF537D21370E /* Pods-WaterMarkImage_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B7C7262584B61F713CEAD6266563ECC1 /* Pods-WaterMarkImage_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF349788687EB891284F38225D46BE12 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		FFF928F7E3CAA7267D3E5A7A4958E3E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		09D2888BDE873B473E75241DAC2E18B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8223DCB9A6F4D94545D64180CCE20D4A;
+			remoteInfo = WaterMarkImage;
+		};
+		D21B50D04E843F3BE50A5CFB47B7B3F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED57CC0E32017EB4AF45F89137E69229;
+			remoteInfo = "Pods-WaterMarkImage_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		25789A840D90D5B774A7E8CD843DCAB0 /* WaterMarkImage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WaterMarkImage-umbrella.h"; sourceTree = "<group>"; };
+		282E10FEDF48324F41F146F71E36BBB3 /* Pods-WaterMarkImage_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WaterMarkImage_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		2D13E9C90861EE76AD1D0000DC0BA722 /* Pods_WaterMarkImage_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WaterMarkImage_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		36F8A762CC5B23FFBAC4AC2211073323 /* Pods-WaterMarkImage_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WaterMarkImage_Example-Info.plist"; sourceTree = "<group>"; };
+		397F7C2F3D3C8AA5370427E49825AEB4 /* Pods-WaterMarkImage_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WaterMarkImage_Tests.modulemap"; sourceTree = "<group>"; };
+		4DBCF54628BE329F59562F88ABF2E2E5 /* Pods-WaterMarkImage_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WaterMarkImage_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		517DD0C88BAA5B68EBCDA83C835B669B /* Pods-WaterMarkImage_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WaterMarkImage_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5214F43AB8A03D49628E3703CCF7908E /* Pods-WaterMarkImage_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WaterMarkImage_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5C3DD335A02E51D30C1C04C18B83EB6C /* Pods-WaterMarkImage_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WaterMarkImage_Tests-Info.plist"; sourceTree = "<group>"; };
+		60F7E83DEE441ED65AE7FBBEFA5851B7 /* WaterMarkImage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WaterMarkImage.xcconfig; sourceTree = "<group>"; };
+		63B86FD838768EB83B06DB4DA6E54D69 /* Pods-WaterMarkImage_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WaterMarkImage_Tests-dummy.m"; sourceTree = "<group>"; };
+		675F00C7FBA40BBDB20B7AF43E3E80C0 /* Pods-WaterMarkImage_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WaterMarkImage_Example-umbrella.h"; sourceTree = "<group>"; };
+		6AD8C54210147C7D682616F1F4E602F1 /* Pods_WaterMarkImage_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WaterMarkImage_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		77C0EA03639312E1EE1552F8AFEA44B3 /* WaterMarkImage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WaterMarkImage-dummy.m"; sourceTree = "<group>"; };
+		7987D229A211D51D8F0FDF5344013662 /* LBZGetWaterMarkImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LBZGetWaterMarkImage.h; path = WaterMarkImage/Classes/LBZGetWaterMarkImage.h; sourceTree = "<group>"; };
+		7A755E8E9B989E0FD4294DC9D6D361E2 /* WaterMarkImage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WaterMarkImage.modulemap; sourceTree = "<group>"; };
+		803065ED386F5133C7C15AA81EE32C4B /* WaterMarkImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WaterMarkImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A61812686944FDE80E0C986BC9215B2 /* Pods-WaterMarkImage_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WaterMarkImage_Example-frameworks.sh"; sourceTree = "<group>"; };
+		97182945AC92322060E8DC4D876B7318 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		9839D5B162D6CAB3A69D41AD01C4FB8B /* WaterMarkImage-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WaterMarkImage-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A310AFFF5CC42C463E66880AA9E92780 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = WaterMarkImage/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		ADC91B44F3A1D55CDE3539A3A4FA5EEE /* libLBZGetWaterMarkImage.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libLBZGetWaterMarkImage.a; path = WaterMarkImage/Classes/libLBZGetWaterMarkImage.a; sourceTree = "<group>"; };
+		AE4D3D9C5F0E63F8BE38A6803467F3CE /* WaterMarkImage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WaterMarkImage-prefix.pch"; sourceTree = "<group>"; };
+		B2E1C633EC28B4E1A2226C42208AC076 /* Pods-WaterMarkImage_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WaterMarkImage_Example.modulemap"; sourceTree = "<group>"; };
+		B7C7262584B61F713CEAD6266563ECC1 /* Pods-WaterMarkImage_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WaterMarkImage_Tests-umbrella.h"; sourceTree = "<group>"; };
+		C6DBD59FFEA5768E56E6E19E04B96A27 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		CA4639D6A328B2A1D4E052B06BBF19C6 /* Pods-WaterMarkImage_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WaterMarkImage_Example.release.xcconfig"; sourceTree = "<group>"; };
+		CA7692485D6A7221A5E70EE1741C2DE0 /* Pods-WaterMarkImage_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WaterMarkImage_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		D991CDE3C2C5989E473F92F63D65CD37 /* WaterMarkImage.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = WaterMarkImage.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		DC32DAFC1CAC6B3F145A5BF130B81EAA /* Pods-WaterMarkImage_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WaterMarkImage_Example-dummy.m"; sourceTree = "<group>"; };
+		DFC6BE292E5D01D1D3894AEBE99338C5 /* Pods-WaterMarkImage_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WaterMarkImage_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		FEB8D17CC41028173DD6BD49C0567B6B /* Pods-WaterMarkImage_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WaterMarkImage_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42C45A4A95C08CF89F99E803B2913748 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AFF1183D8BA5708290C7D838DCDA756 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		968378C69E948A2137EF38C6DB33714A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFF928F7E3CAA7267D3E5A7A4958E3E7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5CACC83928F50A7BAB0C4CAF65725F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF349788687EB891284F38225D46BE12 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		186BFEE9EA8174B4EA58A541470A717D /* Pods-WaterMarkImage_Example */ = {
+			isa = PBXGroup;
+			children = (
+				B2E1C633EC28B4E1A2226C42208AC076 /* Pods-WaterMarkImage_Example.modulemap */,
+				517DD0C88BAA5B68EBCDA83C835B669B /* Pods-WaterMarkImage_Example-acknowledgements.markdown */,
+				DFC6BE292E5D01D1D3894AEBE99338C5 /* Pods-WaterMarkImage_Example-acknowledgements.plist */,
+				DC32DAFC1CAC6B3F145A5BF130B81EAA /* Pods-WaterMarkImage_Example-dummy.m */,
+				8A61812686944FDE80E0C986BC9215B2 /* Pods-WaterMarkImage_Example-frameworks.sh */,
+				36F8A762CC5B23FFBAC4AC2211073323 /* Pods-WaterMarkImage_Example-Info.plist */,
+				675F00C7FBA40BBDB20B7AF43E3E80C0 /* Pods-WaterMarkImage_Example-umbrella.h */,
+				CA7692485D6A7221A5E70EE1741C2DE0 /* Pods-WaterMarkImage_Example.debug.xcconfig */,
+				CA4639D6A328B2A1D4E052B06BBF19C6 /* Pods-WaterMarkImage_Example.release.xcconfig */,
+			);
+			name = "Pods-WaterMarkImage_Example";
+			path = "Target Support Files/Pods-WaterMarkImage_Example";
+			sourceTree = "<group>";
+		};
+		2620D95D04465B7C21EE363E8C687655 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D13E9C90861EE76AD1D0000DC0BA722 /* Pods_WaterMarkImage_Example.framework */,
+				6AD8C54210147C7D682616F1F4E602F1 /* Pods_WaterMarkImage_Tests.framework */,
+				803065ED386F5133C7C15AA81EE32C4B /* WaterMarkImage.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3806B402A93EA5BC53F74FEE721256EC /* WaterMarkImage */ = {
+			isa = PBXGroup;
+			children = (
+				7987D229A211D51D8F0FDF5344013662 /* LBZGetWaterMarkImage.h */,
+				ADC91B44F3A1D55CDE3539A3A4FA5EEE /* libLBZGetWaterMarkImage.a */,
+				A310AFFF5CC42C463E66880AA9E92780 /* ReplaceMe.m */,
+				487D18072E170839EBA19C66DB774959 /* Frameworks */,
+				EE90E54270FB89FDBC934F571BA1BA6B /* Pod */,
+				6436A4D7F64F59C3E7B65D83884BBAC8 /* Support Files */,
+			);
+			name = WaterMarkImage;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		487D18072E170839EBA19C66DB774959 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		59185CDF66812553AB7FF504A8270ED2 /* Pods-WaterMarkImage_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				397F7C2F3D3C8AA5370427E49825AEB4 /* Pods-WaterMarkImage_Tests.modulemap */,
+				4DBCF54628BE329F59562F88ABF2E2E5 /* Pods-WaterMarkImage_Tests-acknowledgements.markdown */,
+				5214F43AB8A03D49628E3703CCF7908E /* Pods-WaterMarkImage_Tests-acknowledgements.plist */,
+				63B86FD838768EB83B06DB4DA6E54D69 /* Pods-WaterMarkImage_Tests-dummy.m */,
+				5C3DD335A02E51D30C1C04C18B83EB6C /* Pods-WaterMarkImage_Tests-Info.plist */,
+				B7C7262584B61F713CEAD6266563ECC1 /* Pods-WaterMarkImage_Tests-umbrella.h */,
+				FEB8D17CC41028173DD6BD49C0567B6B /* Pods-WaterMarkImage_Tests.debug.xcconfig */,
+				282E10FEDF48324F41F146F71E36BBB3 /* Pods-WaterMarkImage_Tests.release.xcconfig */,
+			);
+			name = "Pods-WaterMarkImage_Tests";
+			path = "Target Support Files/Pods-WaterMarkImage_Tests";
+			sourceTree = "<group>";
+		};
+		6436A4D7F64F59C3E7B65D83884BBAC8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7A755E8E9B989E0FD4294DC9D6D361E2 /* WaterMarkImage.modulemap */,
+				60F7E83DEE441ED65AE7FBBEFA5851B7 /* WaterMarkImage.xcconfig */,
+				77C0EA03639312E1EE1552F8AFEA44B3 /* WaterMarkImage-dummy.m */,
+				9839D5B162D6CAB3A69D41AD01C4FB8B /* WaterMarkImage-Info.plist */,
+				AE4D3D9C5F0E63F8BE38A6803467F3CE /* WaterMarkImage-prefix.pch */,
+				25789A840D90D5B774A7E8CD843DCAB0 /* WaterMarkImage-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/WaterMarkImage";
+			sourceTree = "<group>";
+		};
+		6CD6FFA4BBC1289C20EB46A6F4CDEF17 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				186BFEE9EA8174B4EA58A541470A717D /* Pods-WaterMarkImage_Example */,
+				59185CDF66812553AB7FF504A8270ED2 /* Pods-WaterMarkImage_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7F15EDB6C7AED682CCBEA059CC428681 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3806B402A93EA5BC53F74FEE721256EC /* WaterMarkImage */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				7F15EDB6C7AED682CCBEA059CC428681 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				2620D95D04465B7C21EE363E8C687655 /* Products */,
+				6CD6FFA4BBC1289C20EB46A6F4CDEF17 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EE90E54270FB89FDBC934F571BA1BA6B /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				97182945AC92322060E8DC4D876B7318 /* LICENSE */,
+				C6DBD59FFEA5768E56E6E19E04B96A27 /* README.md */,
+				D991CDE3C2C5989E473F92F63D65CD37 /* WaterMarkImage.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		51D18226A263557B4D6C9DC0DB731BFD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98099F7E8D672C0E8E593D9127539477 /* LBZGetWaterMarkImage.h in Headers */,
+				2BE9A0378AD22C6015A28724E2629542 /* WaterMarkImage-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		730E3465C61005F87ECDA387325BF34E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0294D78F985D5DE86B8E6EEA7ADAAC44 /* Pods-WaterMarkImage_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC8AD2D88420E052F8CFD30786A79FD6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2FD04A5DDF7ACE68CAEAF537D21370E /* Pods-WaterMarkImage_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8223DCB9A6F4D94545D64180CCE20D4A /* WaterMarkImage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8859898F9999FFE49F8C19944733068 /* Build configuration list for PBXNativeTarget "WaterMarkImage" */;
+			buildPhases = (
+				51D18226A263557B4D6C9DC0DB731BFD /* Headers */,
+				DF5115DFF4E0F9EF8738BCE0FAADF731 /* Sources */,
+				A5CACC83928F50A7BAB0C4CAF65725F5 /* Frameworks */,
+				F503B00BB2ED52C667A3AB5FB02E0D77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WaterMarkImage;
+			productName = WaterMarkImage;
+			productReference = 803065ED386F5133C7C15AA81EE32C4B /* WaterMarkImage.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		ED57CC0E32017EB4AF45F89137E69229 /* Pods-WaterMarkImage_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46E3CE622802B0F977DEF44D0DF519A8 /* Build configuration list for PBXNativeTarget "Pods-WaterMarkImage_Example" */;
+			buildPhases = (
+				730E3465C61005F87ECDA387325BF34E /* Headers */,
+				965CBC3BF98A620B77E96E9B32F4827B /* Sources */,
+				42C45A4A95C08CF89F99E803B2913748 /* Frameworks */,
+				5980AE828E0DDFEF2E2496519127BD31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				263A27DC34F00D013A58BEA87664EB65 /* PBXTargetDependency */,
+			);
+			name = "Pods-WaterMarkImage_Example";
+			productName = "Pods-WaterMarkImage_Example";
+			productReference = 2D13E9C90861EE76AD1D0000DC0BA722 /* Pods_WaterMarkImage_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FF550268D14396B47225EBEDFB74DA79 /* Pods-WaterMarkImage_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20084CA854C5F3422EBFFDEDA35A58A4 /* Build configuration list for PBXNativeTarget "Pods-WaterMarkImage_Tests" */;
+			buildPhases = (
+				EC8AD2D88420E052F8CFD30786A79FD6 /* Headers */,
+				07346F387BE54EDE99AD734CEF4E602D /* Sources */,
+				968378C69E948A2137EF38C6DB33714A /* Frameworks */,
+				19F1C12DD6578DB936CA038D90818C06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5DBF4F607812AC2DE91BE46632EBEF23 /* PBXTargetDependency */,
+			);
+			name = "Pods-WaterMarkImage_Tests";
+			productName = "Pods-WaterMarkImage_Tests";
+			productReference = 6AD8C54210147C7D682616F1F4E602F1 /* Pods_WaterMarkImage_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 2620D95D04465B7C21EE363E8C687655 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED57CC0E32017EB4AF45F89137E69229 /* Pods-WaterMarkImage_Example */,
+				FF550268D14396B47225EBEDFB74DA79 /* Pods-WaterMarkImage_Tests */,
+				8223DCB9A6F4D94545D64180CCE20D4A /* WaterMarkImage */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		19F1C12DD6578DB936CA038D90818C06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5980AE828E0DDFEF2E2496519127BD31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F503B00BB2ED52C667A3AB5FB02E0D77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07346F387BE54EDE99AD734CEF4E602D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC267702CB1822A6CD0060FDEEF04A9D /* Pods-WaterMarkImage_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		965CBC3BF98A620B77E96E9B32F4827B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				155F89F8FBF9F490291D4017F280372A /* Pods-WaterMarkImage_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF5115DFF4E0F9EF8738BCE0FAADF731 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0F2452C1C6B15C19E52094E95C0BF02 /* libLBZGetWaterMarkImage.a in Sources */,
+				7EC4A14224512ECDD44FDCFE5903364F /* ReplaceMe.m in Sources */,
+				826F888DAA2719B1F130693839B30903 /* WaterMarkImage-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		263A27DC34F00D013A58BEA87664EB65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WaterMarkImage;
+			target = 8223DCB9A6F4D94545D64180CCE20D4A /* WaterMarkImage */;
+			targetProxy = 09D2888BDE873B473E75241DAC2E18B4 /* PBXContainerItemProxy */;
+		};
+		5DBF4F607812AC2DE91BE46632EBEF23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-WaterMarkImage_Example";
+			target = ED57CC0E32017EB4AF45F89137E69229 /* Pods-WaterMarkImage_Example */;
+			targetProxy = D21B50D04E843F3BE50A5CFB47B7B3F4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9F3BDB4B68648AA4F5D2EDD19C7D4F96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60F7E83DEE441ED65AE7FBBEFA5851B7 /* WaterMarkImage.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/WaterMarkImage/WaterMarkImage-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WaterMarkImage/WaterMarkImage-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WaterMarkImage/WaterMarkImage.modulemap";
+				PRODUCT_MODULE_NAME = WaterMarkImage;
+				PRODUCT_NAME = WaterMarkImage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AA4653DA3F6F504051DBD73A77BAF701 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 282E10FEDF48324F41F146F71E36BBB3 /* Pods-WaterMarkImage_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WaterMarkImage_Tests/Pods-WaterMarkImage_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WaterMarkImage_Tests/Pods-WaterMarkImage_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AFA8C27241A460F9D7E7BDC33F80BC9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEB8D17CC41028173DD6BD49C0567B6B /* Pods-WaterMarkImage_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WaterMarkImage_Tests/Pods-WaterMarkImage_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WaterMarkImage_Tests/Pods-WaterMarkImage_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D46AB66EA15CF05FCBCBDADE065A160A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA4639D6A328B2A1D4E052B06BBF19C6 /* Pods-WaterMarkImage_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WaterMarkImage_Example/Pods-WaterMarkImage_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WaterMarkImage_Example/Pods-WaterMarkImage_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E1DCA87E237868849C58AB12BF4D4AEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA7692485D6A7221A5E70EE1741C2DE0 /* Pods-WaterMarkImage_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WaterMarkImage_Example/Pods-WaterMarkImage_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WaterMarkImage_Example/Pods-WaterMarkImage_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E5DCD170015F6F117D3631E479FB4AFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60F7E83DEE441ED65AE7FBBEFA5851B7 /* WaterMarkImage.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/WaterMarkImage/WaterMarkImage-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WaterMarkImage/WaterMarkImage-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WaterMarkImage/WaterMarkImage.modulemap";
+				PRODUCT_MODULE_NAME = WaterMarkImage;
+				PRODUCT_NAME = WaterMarkImage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20084CA854C5F3422EBFFDEDA35A58A4 /* Build configuration list for PBXNativeTarget "Pods-WaterMarkImage_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFA8C27241A460F9D7E7BDC33F80BC9C /* Debug */,
+				AA4653DA3F6F504051DBD73A77BAF701 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46E3CE622802B0F977DEF44D0DF519A8 /* Build configuration list for PBXNativeTarget "Pods-WaterMarkImage_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1DCA87E237868849C58AB12BF4D4AEA /* Debug */,
+				D46AB66EA15CF05FCBCBDADE065A160A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8859898F9999FFE49F8C19944733068 /* Build configuration list for PBXNativeTarget "WaterMarkImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F3BDB4B68648AA4F5D2EDD19C7D4F96 /* Debug */,
+				E5DCD170015F6F117D3631E479FB4AFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

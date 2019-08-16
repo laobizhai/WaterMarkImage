@@ -1,0 +1,6 @@
+framework module WaterMarkImage {
+  umbrella header "WaterMarkImage-umbrella.h"
+
+  export *
+  module * { export * }
+}
